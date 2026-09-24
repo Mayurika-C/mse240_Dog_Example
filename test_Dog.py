@@ -16,6 +16,9 @@ class TestDog(unittest.TestCase):
         self._typicaldog2_george = Dog("George", "Goldendoodle",
                                         "Male", 145, "Brown",
                                         [], 2020)
+        self._typicaldog3_jazz = Dog("Jazz", "Goldendoodle",
+                                                "Female", 64.3, "Brown",
+                                                [], 2020)
     
 
     #
