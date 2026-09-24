@@ -43,7 +43,7 @@ class Dog:
             returns the dog's name as a string
         """
         #stub
-        return None
+        return self._name
     
 
     def get_breed(self) -> str:
@@ -52,7 +52,7 @@ class Dog:
             returns the dog's breed as a string
         """
         #stub
-        return None
+        return self._breed
     
     def get_gender(self) -> str:
         """ get_gender
@@ -60,7 +60,7 @@ class Dog:
             returns the dog's gender as a string
         """
         #stub
-        return None
+        return self._gender
     
     def get_weight(self) -> float:
         """ get_weight
@@ -68,7 +68,7 @@ class Dog:
             return the dog's weight in lbs
         """
         #stub
-        return None
+        return self._weight
 
     def get_colour(self) -> str:
         """ get_colour
@@ -76,7 +76,7 @@ class Dog:
             return the dog's colour as a description
         """
         #stub
-        return None
+        return self._colour
     
     def get_potential_health_issues(self) -> list[str]:
         """ get_potential_health_issues
@@ -84,7 +84,7 @@ class Dog:
             return the dog's known potential_health_issues as a list
         """
         #stub
-        return None
+        return self._potential_health_issues
     
     def get_age(self) -> int:
         """ get_age
@@ -92,7 +92,7 @@ class Dog:
             return the dog's age
         """
         #stub
-        return None
+        return self._birth_year
 
 
 
