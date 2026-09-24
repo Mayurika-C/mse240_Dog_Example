@@ -23,8 +23,13 @@ class Dog:
             potential_health_issues a list of known potential health issues (each a string)
             birth_year  the year the dog was born
         """
-        #stub
-        pass
+        self._name = name
+        self._breed = breed
+        self._gender = gender
+        self._weight = initial_weight
+        self._colour = colour
+        self._potential_health_issues = potential_health_issues
+        self._birth_year = birth_year
 
 
     #############
